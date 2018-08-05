@@ -1,5 +1,4 @@
-# jpmstest
-JPMCTest
+#JPMCTest
 Application to process sales messages & Generate Report.
 
 </br>Assumption
