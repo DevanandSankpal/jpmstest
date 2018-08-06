@@ -24,8 +24,8 @@ The Application is identify messageType and process message for reporting.
 </br>Running com.ds.jpmc.sales.messageprocessor.factory.SalesMessageFactoryTest
 </br>Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 sec
 </br>Running com.ds.jpmc.sales.messageprocessor.model.AdjustmentTest
-</br></br></br>Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
-</br></br>Running com.ds.jpmc.sales.messageprocessor.model.SaleTest
+</br>Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+</br>Running com.ds.jpmc.sales.messageprocessor.model.SaleTest
 </br>Not supporting MesssageType for Sale message
 </br>Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
 
@@ -56,77 +56,77 @@ Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
 
 <b> a. Sales Report </b>
  
-Message processor has started!
-Ignore message for First Header row
-=========== SALES REPORT ===========
- Guava - units sold: 3 , sales amount: 36
- Apple - units sold: 3 , sales amount: 36
- Mango - units sold: 3 , sales amount: 30
- Banana - units sold: 3 , sales amount: 30
-Total units sold - 12
-All sales - 132
+</br>Message processor has started!
+</br>Ignore message for First Header row
+</br>=========== SALES REPORT ===========
+ </br>Guava - units sold: 3 , sales amount: 36
+ </br>Apple - units sold: 3 , sales amount: 36
+ </br>Mango - units sold: 3 , sales amount: 30
+ </br>Banana - units sold: 3 , sales amount: 30
+</br>Total units sold - 12
+</br>All sales - 132
 
 
-=========== SALES REPORT ===========
- Guava - units sold: 3 , sales amount: 36
- Apple - units sold: 6 , sales amount: 78
- Blackberry - units sold: 3 , sales amount: 42
- Mango - units sold: 3 , sales amount: 30
- Banana - units sold: 6 , sales amount: 66.30
-Total units sold - 21
-All sales - 252.30
+</br></br>=========== SALES REPORT ===========
+</br> Guava - units sold: 3 , sales amount: 36
+</br> Apple - units sold: 6 , sales amount: 78
+</br> Blackberry - units sold: 3 , sales amount: 42
+</br> Mango - units sold: 3 , sales amount: 30
+</br> Banana - units sold: 6 , sales amount: 66.30
+</br>Total units sold - 21
+</br>All sales - 252.30
 
 
-=========== SALES REPORT ===========
- Guava - units sold: 6 , sales amount: 79.80
- Apple - units sold: 6 , sales amount: 78
- Blackberry - units sold: 6 , sales amount: 78
- Mango - units sold: 6 , sales amount: 60
- Banana - units sold: 6 , sales amount: 66.30
-Total units sold - 30
-All sales - 362.10
+</br>=========== SALES REPORT ===========
+ </br>Guava - units sold: 6 , sales amount: 79.80
+ </br>Apple - units sold: 6 , sales amount: 78
+ </br>Blackberry - units sold: 6 , sales amount: 78
+ </br>Mango - units sold: 6 , sales amount: 60
+ </br>Banana - units sold: 6 , sales amount: 66.30
+</br>Total units sold - 30
+</br>All sales - 362.10
 
 
-=========== SALES REPORT ===========
- Guava - units sold: 9 , sales amount: 139.80
- Apple - units sold: 9 , sales amount: 126
- Blackberry - units sold: 6 , sales amount: 90
- Mango - units sold: 6 , sales amount: 60
- Banana - units sold: 9 , sales amount: 96.30
-Total units sold - 39
-All sales - 512.10
+</br>=========== SALES REPORT ===========
+ </br>Guava - units sold: 9 , sales amount: 139.80
+ </br>Apple - units sold: 9 , sales amount: 126
+ </br>Blackberry - units sold: 6 , sales amount: 90
+ </br>Mango - units sold: 6 , sales amount: 60
+ </br>Banana - units sold: 9 , sales amount: 96.30
+</br>Total units sold - 39
+</br>All sales - 512.10
 
 
-=========== SALES REPORT ===========
- Guava - units sold: 9 , sales amount: 157.80
- Apple - units sold: 12 , sales amount: 156
- Blackberry - units sold: 9 , sales amount: 378
- Mango - units sold: 9 , sales amount: 90
- Banana - units sold: 10 , sales amount: 106.30
-Total units sold - 49
-All sales - 888.10
+</br>=========== SALES REPORT ===========
+ </br>Guava - units sold: 9 , sales amount: 157.80
+ </br>Apple - units sold: 12 , sales amount: 156
+ </br>Blackberry - units sold: 9 , sales amount: 378
+ </br>Mango - units sold: 9 , sales amount: 90
+ </br>Banana - units sold: 10 , sales amount: 106.30
+</br>Total units sold - 49
+</br>All sales - 888.10
  
  <b>b. Adjustment Report</b>
  
- The applicationg is pausing and will stop processing new messages.
-=========== ADJUSTMENTS REPORT ===========
- Adjustment{type=ADD, productName='Apple', amount=2}
- Adjustment{type=ADD, productName='Guava', amount=2}
- Adjustment{type=ADD, productName='Blackberry', amount=2}
- Adjustment{type=ADD, productName='Banana', amount=2.10}
- Adjustment{type=ADD, productName='Blackberry', amount=2}
- Adjustment{type=ADD, productName='Apple', amount=2}
- Adjustment{type=ADD, productName='Guava', amount=2}
- Adjustment{type=ADD, productName='Guava', amount=0.30}
- Adjustment{type=SUBTRACT, productName='Blackberry', amount=2}
- Adjustment{type=ADD, productName='Blackberry', amount=2}
- Adjustment{type=ADD, productName='Guava', amount=2}
- Adjustment{type=ADD, productName='Blackberry', amount=2}
- Adjustment{type=ADD, productName='Apple', amount=2}
- Adjustment{type=ADD, productName='Guava', amount=2}
- Adjustment{type=MULTIPLY, productName='Blackberry', amount=3}
- Adjustment{type=ADD, productName='Guava', amount=2}
- Adjustment{type=ADD, productName='Blackberry', amount=2}
+ </br>The applicationg is pausing and will stop processing new messages.
+</br>=========== ADJUSTMENTS REPORT ===========
+ </br>Adjustment{type=ADD, productName='Apple', amount=2}
+ </br>Adjustment{type=ADD, productName='Guava', amount=2}
+ </br>Adjustment{type=ADD, productName='Blackberry', amount=2}
+ </br>Adjustment{type=ADD, productName='Banana', amount=2.10}
+ </br>Adjustment{type=ADD, productName='Blackberry', amount=2}
+ </br>Adjustment{type=ADD, productName='Apple', amount=2}
+ </br>Adjustment{type=ADD, productName='Guava', amount=2}
+ </br>Adjustment{type=ADD, productName='Guava', amount=0.30}
+ </br>Adjustment{type=SUBTRACT, productName='Blackberry', amount=2}
+ </br>Adjustment{type=ADD, productName='Blackberry', amount=2}
+ </br>Adjustment{type=ADD, productName='Guava', amount=2}
+ </br>Adjustment{type=ADD, productName='Blackberry', amount=2}
+ </br>Adjustment{type=ADD, productName='Apple', amount=2}
+ </br>Adjustment{type=ADD, productName='Guava', amount=2}
+ </br>Adjustment{type=MULTIPLY, productName='Blackberry', amount=3}
+ </br>Adjustment{type=ADD, productName='Guava', amount=2}
+ </br>Adjustment{type=ADD, productName='Blackberry', amount=2}
 
-Message processor has finished.
+</br>Message processor has finished.
 
